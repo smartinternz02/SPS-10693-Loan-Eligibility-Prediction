@@ -8,7 +8,7 @@ import tech.tablesaw.plotly.components.Figure;
 import tech.tablesaw.plotly.components.Layout;
 import tech.tablesaw.plotly.traces.*;
 
-public class TrainVisulization {
+public class Visulization {
 	public static void main(String args[]){
 		try {
 			Table data = Table.read().csv("D:\\ML_data_sets\\train_data.csv");
